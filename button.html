@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Happy Birthday Harshit</title>
+	<style type="text/css">
+@font-face
+{
+	font-family: Kingthings Bloone!import;
+	src:url('Kingthings Bloone!.ttf');
+}
+body
+{
+	background: url('harshit.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.naman
+{
+	position: absolute;
+	top: 50%;
+	left: 45%;
+	transform: -50%,-45%;
+}
+button
+{
+	color: white;
+	font-family: 'Kingthings Bloone!';	
+	background:black;
+	transform: scale(10);
+	filter: opacity(50%);
+	border-radius: 1px 5px 1px 5px;
+	border:none;
+	transition:1s;
+	animation: btn 2s 1;
+	outline-style: none;
+}
+@keyframes btn
+{
+	0%{
+		filter: opacity(0%);
+	}
+	100%{
+		filter: opacity(50%);
+	}
+}
+#btn:hover
+{
+	color: black;
+	background:white;
+	filter: opacity(90%);
+}
+p
+{
+	font-weight: bold;
+	font-family:'Consolas';
+	font-size: 5px;
+	letter-spacing: 1.5px;
+}
+.bln
+{
+	position: absolute;
+	transform: scale(.5);
+	top: -30%;
+	right: -51%;
+	z-index: -2;
+	animation: bln 1s infinite;
+}
+.bln2
+{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	transform: -10%,-5%;
+	z-index: -2;
+	animation: bln 1s infinite;
+}
+@keyframes bln
+{
+	0%
+	{
+		filter: brightness(0);
+	}
+	50%
+	{
+		filter: brightness(5);
+	}
+	100%
+	{
+		filter: brightness(1);
+	}
+}
+.ballon
+{
+	height: 50%;
+	width: 50%;
+}
+
+
+	</style>
+}
+
+</head>
+<body>
+	<div class="naman">
+		<a href="next.html"><button id="btn">FOR YOU<p>HARSHIT</p></button></a>
+	</div>
+	<div class="bln">
+		<img src="3.png">
+	</div>
+	<div class="bln2">
+		<img src="5.png" class="ballon">
+	</div>
+</body>
+</html>
